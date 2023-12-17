@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    /* Navigation part */
+
+    .nav-social-icn{
+     @apply pr-2 hover:text-blue cursor-pointer transition;
+    }
+  
+      
+}
